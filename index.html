@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путь работника</title>
+    <link rel="icon" href="images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="#!">О нас</a></li>
+                    <li><a href="#!">Что мы делаем?</a></li>
+                    <li><a href="#!">Как нам помочь?</a></li>
+                    <li><a href="#!">Новости</a></li>
+                    <li><a href="#!">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="#!" aria-label="Обычное дело — главная страница">
+                    <img src="images/logo.svg" alt="Логотип организации «Обычное дело»">
+                    <span class="logo-title">ОБЫЧНОЕ ДЕЛО</span>
+                </a>
+            </div>
+
+            <a href="#!" class="btn btn__header">Помочь</a>
+        </div>
+    </header>
+
+    <!-- Главный контент -->
+    <main class="main">
+        <div class="container">
+
+            <nav class="breadcrumbs" aria-label="Хлебные крошки">
+                <a href="#!" class="breadcrumbs__link">Главная</a>
+                <span class="breadcrumbs__current">Путь работника</span>
+            </nav>
+
+            <!-- Заголовок и текст  -->
+            <h1>Путь работника</h1>
+
+            <p class="intro">
+                Сотрудничество с нашими мастерскими начинается с Дня открытых дверей.<br>
+                Кандидат и его близкие регистрируются на сайте, чтобы прийти в гости<br>
+                и увидеть, как у нас всё устроено.
+            </p>
+
+            <p class="intro intro--last">
+                Наша задача — создать спокойную атмосферу доверия, с которой и начинается адаптация.
+            </p>
+
+            <!-- Аккордеон и картинка -->
+            <div class="path">
+                <ol class="steps">
+                    <li class="step">
+                        <button class="step__header">
+                            <span>1. День открытых дверей (ДОД)</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>2. Пробный день</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>3. Восемь трудовых проб</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>4. Учебная стажировка</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>5. Производственная стажировка</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>6. Трудоустройство по программе квотирования</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                    <li class="step">
+                        <button class="step__header">
+                            <span>7. Увольнение</span>
+                            <img src="images/Vector.svg" alt="Раскрыть" class="step-icon" width="16" height="16">
+                        </button>
+                    </li>
+                </ol>
+
+                <div class="path-side">
+                    <img src="images/main.png" alt="Сотрудники мастерской «Обычного дела» за работой"
+                        class="path-photo">
+                    <a href="#!" class="btn btn__main">Записаться на день открытых дверей</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+
+                <!-- Колонка 1 Логотип -->
+                <div class="footer-brand">
+                    <a href="#!" class="footer-logo">
+                        <img src="images/logo.svg" alt="Логотип ОД">
+                    </a>
+                </div>
+
+                <!-- Колонка 2 меню -->
+                <div class="footer-menu">
+                    <a href="#!">Обычное дело</a>
+                    <a href="#!">Ключевые курсы</a>
+                    <a href="#!">Досуг</a>
+                    <a class="btn btn__footer" href="#!">Помочь</a>
+                </div>
+
+                <!-- Колонка 3 Адреса -->
+                <div class="footer-address">
+                    <p class="footer-title">Адреса:</p>
+                    <p>ул. Ключевая, д. 22, корп. 2, Москва</p>
+                    <p>ул. Борисовские пруды, д. 34, корп. 1, Москва</p>
+                    <p>ул. Открытое шоссе д. 24, корп. 1, Москва</p>
+                </div>
+
+                <!-- Колонка 4 контакты -->
+                <div class="footer-contacts">
+                    <p class="footer-phone"><a href="tel:+79169805510">+7 (916) 980-55-10</a></p>
+                    <p>
+                        Электронная почта:<br>
+                        <a href="mailto:director@centervnl.ru">director@centervnl.ru</a>
+                    </p>
+                </div>
+
+                <!-- Колонка 5 соцсети -->
+                <div class="footer__social">
+                    <p>Подписывайтесь<br>на нас в соцсетях</p>
+                    <div class="socials">
+                        <a href="#!"><img src="images/footer/1.svg" alt="VK"></a>
+                        <a href="#!"><img src="images/footer/2.svg" alt="OK"></a>
+                        <a href="#!"><img src="images/footer/3.svg" alt="MAX"></a>
+                        <a href="#!"><img src="images/footer/4.svg" alt="Дзен"></a>
+                        <a href="#!"><img src="images/footer/5.svg" alt="Telegram"></a>
+                        <a href="#!"><img src="images/footer/6.svg" alt="Rutube"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть футера -->
+            <div class="footer__bottom">
+                <div class="legal">
+                    <a href="#!">Политика конфиденциальности</a>
+                    <a href="#!">Публичная оферта</a>
+                    <a href="#!">Политика обработки персональных данных</a>
+                </div>
+                <p class="copyright">© 2026 АНО «Ресурсный центр «Обычное дело»</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
