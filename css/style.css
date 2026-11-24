@@ -19,12 +19,14 @@
 body {
     margin: 0;
     font-family: 'Ony One', sans-serif;
+    font-weight: 400;
     color: #313332;
 }
 
 a {
     color: #313332;
     text-decoration: none;
+    font-weight: 400;
 }
 
 ul {
@@ -45,6 +47,7 @@ ul {
     justify-content: center;
     background: #ad83ff;
     font-size: 18px;
+    font-weight: 400;
     color: white;
 }
 
@@ -73,6 +76,7 @@ ul {
 
 .header__nav a {
     font-size: 15px;
+    font-weight: 400;
 }
 
 .header .logo a {
@@ -84,6 +88,7 @@ ul {
 
 .logo-title {
     font-size: 15px;
+    font-weight: 400;
 }
 
 .btn.btn__header {
@@ -102,16 +107,18 @@ ul {
     margin-bottom: 25px;
     gap: 24px;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .breadcrumbs__current {
     color: #AD83FF;
+    font-weight: 400;
 }
 
 
-.main {
+main {
     flex: 1 0 auto;
-    padding-bottom: 28px;
+    padding-bottom: 32px;
 }
 
 .main > .container {
@@ -121,6 +128,7 @@ ul {
 h1 {
     margin: 0 0 16px;
     font-size: 30px;
+    font-weight: 500;
     line-height: 1.2;
     text-align: center;
 }
@@ -129,7 +137,8 @@ h1 {
     max-width: 785px;
     margin: auto;
     font-size: 18px;
-    line-height: 1.3;
+    font-weight: 400;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -141,7 +150,7 @@ h1 {
 /* Общая сетка */
 .path {
     display: grid;
-    grid-template-columns: 1fr 395px;  
+    grid-template-columns: 1fr 397px;  
     gap: 120px;                 
     align-items: start;             
     margin-top: 48px;
@@ -153,7 +162,7 @@ h1 {
 .steps {
     display: flex;            
     flex-direction: column;
-    gap: 10px;                 
+    gap: 16px;                 
     margin: 0;                 
     padding: 0;                
     list-style: none;          
@@ -163,8 +172,8 @@ h1 {
     display: flex;
     align-items: center; 
     gap: 16px;
-    min-height: 60px;                
-    padding: 0 76px 0 64px;          
+    height: 48px;                
+    padding: 0 16px 0 64px;          
     background-color: #F5F5F5;
 }
 
@@ -177,6 +186,7 @@ h1 {
     border: none;
     font-family: inherit;
     font-size: 18px;
+    font-weight: 400;
     color: #313332;
     text-align: left;
     padding: 0;
@@ -200,20 +210,22 @@ h1 {
 
 .path-photo {
     display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    width: 397px;
+    height: 315px;
+    object-fit: cover;
 }
 
 .btn.btn__main {
     width: 100%;
     height: 52px;
     font-size: 18px;
+    font-weight: 400;
 }
 
 /* ФУТЕР */
 .footer {
     padding: 20px 0 40px;
+    font-weight: 400;
 }
 
 /* Верхняя часть: 5 колонок */
@@ -236,6 +248,7 @@ h1 {
     flex-direction: column;
     gap: 8px;
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.2;
 }
 
@@ -244,6 +257,7 @@ h1 {
     margin-top: 12px; 
     background: #F5F5F5;
     color: #313332;
+    font-weight: 400;
 }
 
 /* Колонка 3: адреса */
@@ -263,6 +277,7 @@ h1 {
 .footer-contacts p {
     margin: 0;
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.4;
 }
 
@@ -277,6 +292,7 @@ h1 {
 .footer__social p {
     margin: 0 0 16px;
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.3;
 }
 
@@ -309,6 +325,7 @@ h1 {
 .copyright {
     margin: 30px 0 0;
     font-size: 15px;
+    font-weight: 400;
     line-height: 18px;
     color: #999999;
 }
