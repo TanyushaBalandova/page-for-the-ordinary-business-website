@@ -8,13 +8,7 @@
 
 Ничего устанавливать не нужно — откройте `index.html` в браузере.
 
-Если браузер блокирует локальные шрифты, запустите простой сервер из папки проекта:
-
-```bash
-python -m http.server 8000
-```
-
-и откройте `http://localhost:8000`.
+Ссылка на страницу: https://tanyushabalandova.github.io/page-for-the-ordinary-business-website/
 
 ## Структура
 
